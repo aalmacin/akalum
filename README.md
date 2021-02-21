@@ -6,3 +6,4 @@ The goal of this repo is to play with different npm libraries and set them up.
 
 - Storybook
 - Emotion
+- Twemoji
