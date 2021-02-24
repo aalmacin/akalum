@@ -4,16 +4,14 @@ module.exports = {
     es2021: true,
   },
   rules: {
-    "no-use-before-define": "off",
-    "import/prefer-default-export": "off",
-    "react/jsx-filename-extension": "off",
-    "import/extensions": "off",
-    "import/no-unresolved": "off"
+    'no-use-before-define': 'off',
+    'import/prefer-default-export': 'off',
+    'react/jsx-filename-extension': 'off',
+    'import/extensions': 'off',
+    'import/no-unresolved': 'off',
+    'import/no-extraneous-dependencies': 'off',
   },
-  extends: [
-    'airbnb',
-    'prettier'
-  ],
+  extends: ['airbnb', 'prettier'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
@@ -22,9 +20,5 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  plugins: [
-    'react',
-    'prettier',
-    '@typescript-eslint',
-  ],
+  plugins: ['react', 'prettier', '@typescript-eslint'],
 };

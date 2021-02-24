@@ -3,9 +3,11 @@ import twemoji from 'twemoji'
 
 export const TwemojiExample: React.FC = () => {
     const textWithEmoji = twemoji.parse("Here is a text with emoji ❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤")
-    return <div>
+    return (
+      <div>
         Twemoji Example
-        <br></br>
+        <br />
         <span dangerouslySetInnerHTML={{__html: textWithEmoji}} />
-    </div>
+      </div>
+)
 }
