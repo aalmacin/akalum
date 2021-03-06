@@ -14,6 +14,12 @@ Storybook page: https://aalmacin.github.io/akalum
 
 Akalum is a Sumerian word for Food
 
+## Stack/Services
+
+- github pages
+- bit
+- github actions
+
 ## Libraries
 
 - Storybook
@@ -22,7 +28,6 @@ Akalum is a Sumerian word for Food
 - Ant Design React
 - gh-pages
 - ts-node
-- bit
 - react-markdown
 
 ## Concepts
