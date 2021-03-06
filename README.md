@@ -7,6 +7,9 @@ The goal of this repo is to:
 * show concepts
 * look at different setups
 
+
+Storybook page: https://aalmacin.github.io/akalum
+
 ## What does Akalum mean?
 
 Akalum is a Sumerian word for Food
