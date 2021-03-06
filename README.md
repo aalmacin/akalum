@@ -1,6 +1,15 @@
 # Akalum
 
-The goal of this repo is to play with different npm libraries, show concepts and different setup.
+The goal of this repo is to:
+* try out different npm libraries
+* test out different services
+* try old and new technologies
+* show concepts
+* look at different setups
+
+## What does Akalum mean?
+
+Akalum is a Sumerian word for Food
 
 ## Libraries
 
