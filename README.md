@@ -34,4 +34,8 @@ Akalum is a Sumerian word for Food
 
 ### CSS
 
-- clamp()
+- `clamp()`
+
+### Webpack
+
+- using `asset/source` instead of `raw-loader`
