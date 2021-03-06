@@ -1,6 +1,6 @@
-# My React Kitchen
+# Akalum
 
-The goal of this repo is to play with different npm libraries and set them up.
+The goal of this repo is to play with different npm libraries, show concepts and different setup.
 
 ## Libraries
 
