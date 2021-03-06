@@ -7,29 +7,33 @@ module.exports = {
   entry: './src/index.tsx',
   output: {
     filename: 'main.js',
-    path: path.resolve('dist')
+    path: path.resolve('dist'),
   },
   resolve: {
-    extensions: ['.js', '.jsx', '.json', '.ts', '.tsx']
+    extensions: ['.js', '.jsx', '.json', '.ts', '.tsx'],
   },
   module: {
     rules: [
       {
         test: /\.tsx?$/,
         loader: 'awesome-typescript-loader',
-        exclude: /node_modules/
-      }
-    ]
+        exclude: /node_modules/,
+      },
+      {
+        test: /\.md$/,
+        loader: 'asset/resource',
+      },
+    ],
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, 'src', 'index.html')
+      template: path.resolve(__dirname, 'src', 'index.html'),
     }),
     new CopyPlugin({
-      patterns: [{ from: './src/styles/fonts', to: 'fonts' }]
-    })
+      patterns: [{ from: './src/styles/fonts', to: 'fonts' }],
+    }),
   ],
   devServer: {
-    contentBase: path.join(__dirname, 'dist')
-  }
+    contentBase: path.join(__dirname, 'dist'),
+  },
 };
