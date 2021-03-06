@@ -8,6 +8,8 @@ The goal of this repo is to play with different npm libraries and set them up.
 - Emotion
 - Twemoji
 - Ant Design React
+- gh-pages
+- ts-node
 
 ## Concepts
 
