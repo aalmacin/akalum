@@ -10,7 +10,7 @@ module.exports = {
     path: path.resolve('dist'),
   },
   resolve: {
-    extensions: ['.js', '.jsx', '.json', '.ts', '.tsx'],
+    extensions: ['.js', '.jsx', '.json', '.ts', '.tsx', '.md'],
   },
   module: {
     rules: [
@@ -21,7 +21,8 @@ module.exports = {
       },
       {
         test: /\.md$/,
-        loader: 'asset/resource',
+        type: 'asset/source',
+        exclude: /node_modules/,
       },
     ],
   },
