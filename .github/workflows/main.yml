@@ -27,6 +27,8 @@ jobs:
       - run: npm ci
       - run: npm run build
       - run: npm run build-storybook
-      - id: 'GitHub Pages'
-        uses: crazy-max/ghaction-github-pages@v2.2.0
+      - uses: crazy-max/ghaction-github-pages@v2.2.0
+        with:
+          target_branch: "gh-pages"
+          build_dir: "storybook-static"
       
