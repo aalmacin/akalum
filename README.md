@@ -39,3 +39,7 @@ Akalum is a Sumerian word for Food
 ### Webpack
 
 - using `asset/source` instead of `raw-loader`
+
+## Github Actions
+
+- using `crazy-max/ghaction-github-pages` as a step
