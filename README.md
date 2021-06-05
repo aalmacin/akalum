@@ -30,6 +30,10 @@ Akalum is a Sumerian word for Food
 - ts-node
 - react-markdown
 
+### Small Libraries
+
+- module-alias
+
 ## Concepts
 
 ### CSS

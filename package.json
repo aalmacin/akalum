@@ -72,6 +72,7 @@
     "@emotion/react": "^11.1.5",
     "@emotion/styled": "^11.1.5",
     "antd": "^4.12.3",
+    "module-alias": "^2.2.2",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-markdown": "^5.0.3",
@@ -81,5 +82,8 @@
     "env": {},
     "componentsDefaultDirectory": "components/{name}",
     "packageManager": "npm"
+  },
+  "_moduleAliases": {
+    "@aliased": "src/libs/module-alias/folder/far/aliased"
   }
 }
