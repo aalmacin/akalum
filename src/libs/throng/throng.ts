@@ -1,16 +1,16 @@
-const express = require('express');
+// const express = require('express');
 const throng = require('throng');
 const os = require('os');
 
-function startExpressApp() {
-  const app = express();
+// function startExpressApp() {
+//   const app = express();
 
-  const port = 4325;
+//   const port = 4325;
 
-  const server = app.listen(port, () => {
-    logger.info(`App running on ${port}`);
-  });
-}
+//   const server = app.listen(port, () => {
+//     console.log(`App running on ${port}`);
+//   });
+// }
 throng({
   // The master function is called only once.
   // We might utilize that for something that we want only to happen once per run,
@@ -23,7 +23,7 @@ throng({
   // The number of workers is defined by you with the count option.
   // throng defaults to setting the number of workers based on the number of available CPUs,
   // using Node's inbuilt API to get information about the logical cores of the computer.
-  worker: async (workerId, disconnect) => {},
+  worker: async () => {},
 
   // Number of workers
   count: os.cpus().length,
