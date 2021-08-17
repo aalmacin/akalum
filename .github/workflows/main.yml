@@ -31,5 +31,5 @@ jobs:
         with:
           target_branch: "gh-pages"
           build_dir: "storybook-static"
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
       
