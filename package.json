@@ -1,5 +1,5 @@
 {
-  "name": "court-finder-react",
+  "name": "akalum",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -16,15 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aalmacin/court-finder-react.git"
+    "url": "git+https://github.com/aalmacin/akalum.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aalmacin/court-finder-react/issues"
+    "url": "https://github.com/aalmacin/akalum/issues"
   },
-  "homepage": "https://github.com/aalmacin/court-finder-react#readme",
+  "homepage": "https://github.com/aalmacin/akalum#readme",
   "description": "",
   "devDependencies": {
     "@babel/core": "^7.12.10",
